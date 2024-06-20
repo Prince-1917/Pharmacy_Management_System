@@ -1,6 +1,27 @@
-# Pharmacy_Management_System
-Code include addition of medicine and users, also provides a bill at the end.
-a)	In conclusion, the pharmacy management system made using C programming provides a comprehensive solution for managing and enhancing the operations of a pharmacy.
-b)	The project is based on managing the medicine at an medical store and selling the medicine to the customer. The main idea behind this program was to build the user friendly program for managing pharmacy.
-c)	The user shall feel very comfortable to run the program and everything in the program has been made clear to understand and modify the code as per the circumstances or need.
-d)	In this code managing of the medicine such as deleting and updating of medicine is not possible due to requirement of complex programming but we managed to create a small demonstration of the pharmacy management system.
+# Pharmacy Management System
+
+This project is a simple command-line based pharmacy management system in C. It allows you to add customer data, add new medicines, and generate bills for purchased medicines with GST calculation.
+
+## Files
+
+- `main.c`: The main C source file containing the implementation of the pharmacy management system.
+
+## Usage
+
+1. Clone the repository or download the files.
+2. Compile the `main.c` file using a C compiler.
+3. Run the compiled executable to start the pharmacy management system.
+
+## Features
+
+- Add new customer data
+- Add new medicine
+- Buy medicine and generate a bill with GST
+
+## Compilation and Execution
+
+1. Open a terminal and navigate to the directory containing `main.c`.
+2. Compile the code using a C compiler, such as `gcc`:
+
+   ```sh
+   gcc -o pharmacy main.c
